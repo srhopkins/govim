@@ -12,4 +12,4 @@ I had to do the following.
  * Add `let g:airline_powerline_fonts = 1` to .vimrc to populate the airline symbols dictionary. [Reference](https://github.com/bling/vim-airline/wiki/FAQ)
  * To fix the odd "hanging" characters I used @devlinzed solution. [Reference](https://github.com/bling/vim-airline/issues/17)
 
-> If you bork your default profile and need to reset iTerm2 you can close out of the app and run `defaults delete com.googlecode.iterm2` from mac default terminal to reset.[Reference](http://apple.stackexchange.com/questions/164821/restoring-iterm2-to-default-values)
+> If you bork your default profile and need to reset iTerm2 you can close out of the app and run `defaults delete com.googlecode.iterm2` from mac default terminal to reset. [Reference](http://apple.stackexchange.com/questions/164821/restoring-iterm2-to-default-values)
