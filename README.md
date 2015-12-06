@@ -2,9 +2,9 @@ govim
 ---
 Minor modifications to mbrt/golang-vim-dev to work with tmux and all powerline characters.
 
-Mac
+mac
 ---
-I had to do the following.
+Process I followed.
 
  * Install [iTerm2](https://www.iterm2.com/) if you haven't already.
  * Install a [powerline compatable font](https://github.com/powerline/fonts) through Mac's built in Font Book. I'm using Droid Sans Mono for Powerline.
