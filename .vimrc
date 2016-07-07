@@ -19,6 +19,8 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'mbbill/undotree'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'Raimondi/delimitMate'
+Plugin 'ekalinin/Dockerfile.vim'
 
 " all of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -85,6 +87,8 @@ let g:tagbar_type_go = {
     \ 'ctagsargs' : '-sort -silent'
 \ }
 
+let delimitMate_expand_cr = 1
+let delimitMate_expand_space = 1
 
 " shortcuts remap
 nmap <F2> :tabnew<CR>
