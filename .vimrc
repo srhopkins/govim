@@ -36,6 +36,7 @@ set scrolloff=999
 set encoding=utf-8
 set backspace=indent,eol,start
 colorscheme molokai
+set t_ut=
 
 " plugin customizations
 " neocomplete
