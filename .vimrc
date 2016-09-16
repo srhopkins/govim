@@ -22,6 +22,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'Raimondi/delimitMate'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'hashivim/vim-hashicorp-tools'
+Plugin 'godlygeek/tabular'
 
 " all of your Plugins must be added before the following line
 call vundle#end()            " required
