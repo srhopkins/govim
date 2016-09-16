@@ -93,7 +93,7 @@ let g:tagbar_type_go = {
 let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
 
-autocmd FileType tf,tfvars inoremap <silent> = =<Esc>:call <SID>ealign()<CR>a
+autocmd BufRead,BufNewFile *.tf,*.tfvars inoremap <silent> = =<Esc>:call <SID>ealign()<CR>a
 function! s:ealign()
   let p = '^.*=\s.*$'
   if exists(':Tabularize') && getline('.') =~# '^.*=' && (getline(line('.')-1) =~# p || getline(line('.')+1) =~# p)
