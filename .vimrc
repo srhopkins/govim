@@ -135,3 +135,6 @@ au FileType go nmap <Leader>dv <Plug>(go-def-vertical)
 au FileType go nmap <Leader>dt <Plug>(go-def-tab)
 " rename the identifier under the cursor to a new name
 au FileType go nmap <Leader>e <Plug>(go-rename)
+
+set tabstop=2
+set shiftwidth=2
