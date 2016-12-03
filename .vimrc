@@ -137,4 +137,5 @@ au FileType go nmap <Leader>e <Plug>(go-rename)
 
 set tabstop=2
 set shiftwidth=2
-set foldcolumn=3
+set foldcolumn=1
+highlight FoldColumn guibg=gray14 guifg=white
