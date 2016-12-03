@@ -32,7 +32,6 @@ filetype plugin indent on    " required
 syntax on
 set ts=4
 set sw=4
-set number
 set cursorline
 set scrolloff=999
 set encoding=utf-8
@@ -138,3 +137,4 @@ au FileType go nmap <Leader>e <Plug>(go-rename)
 
 set tabstop=2
 set shiftwidth=2
+set foldcolumn=3
