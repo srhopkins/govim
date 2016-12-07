@@ -23,7 +23,8 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'hashivim/vim-hashicorp-tools'
 Plugin 'godlygeek/tabular'
-Plugin 'klen/python-mode'
+"Plugin 'klen/python-mode'
+Plugin 'tomasr/molokai'
 
 " all of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -136,7 +137,10 @@ au FileType go nmap <Leader>dt <Plug>(go-def-tab)
 " rename the identifier under the cursor to a new name
 au FileType go nmap <Leader>e <Plug>(go-rename)
 
+set nonumber
 set tabstop=2
 set shiftwidth=2
 set foldcolumn=1
 highlight FoldColumn ctermbg=235
+autocmd CompleteDone * pclose
+
