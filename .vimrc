@@ -23,6 +23,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'hashivim/vim-hashicorp-tools'
 Plugin 'godlygeek/tabular'
+Plugin 'klen/python-mode'
 
 " all of your Plugins must be added before the following line
 call vundle#end()            " required
